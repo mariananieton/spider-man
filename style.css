@@ -81,3 +81,39 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
 }
+
+/*equipe*/
+
+.equipe{
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    grid-column-gap: 10px;
+}
+
+.pessoa{
+    background-color: #a7b6d7;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.pessoa p{
+    min-height: 200px;
+}
+
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.redesSociais img{
+    width: 30px;
+}
+
+footer{
+    background-color: rgba(144,37,45,255);
+    padding: 20px;
+    text-align: center;
+}
