@@ -43,3 +43,41 @@ nav a:hover {
     color: rgba(167,182,215,255);
     text-decoration: underline;
 }
+
+/*Destaque*/
+.destaque{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    padding: 0 50px;
+    background-color: rgba(80,116,192,255);
+}
+
+.destaque button{
+    padding: 15px;
+    background-color: #90252d;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 200px;
+    color: #fff;
+}
+
+.destaque button:hover{
+    background-color: #15233e;
+    color:antiquewhite;
+    cursor: pointer;
+}
+.destaque h1{
+    font-size: 40px;
+}
+
+.destaque p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
